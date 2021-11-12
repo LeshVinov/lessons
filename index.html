@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>lesson1</title>
+</head>
+<body>
+    <h1>Действия при первом включении GIT в папке с проектом: </h1></li>
+        <ul></li>
+            <li>git init - инициализация git в папке</li>
+            <li>git config user.name “username” / если будет дополнительно просить выставить name, то используйте команду git config --global user.name “username”</li>
+            <li>git config user.email “email” / если будет дополнительно просить выставить name, то используйте команду git config --global user.email “email”</li>
+            <li>git remote add origin ссылканарепозиторий(GitHub) - подключение репозитория</li>
+            <li>git branch -M main  - создание главной ветки main в локальном репозитории (в папке проекта)</li>
+            <li>git add . - добавление в отслеживание git всех файлов в проекте</li>
+            <li>git commit -m “описание сохранения” - создание точки сохранения</li>
+            <li>git push -u origin main - отправка данных в облачный репозиторий (GitHub) и создание в нем ветки main</li>
+            <li>git checkout -b dev - создание ветки dev в локальном проекте</li>
+        </ul>
+        <h2>Тут нужно внести какие то данные в ваш проект (любые), что бы появились изменения, которые git увидит</h2>
+            <ul>
+                <li>git commit -a -m “описание сохранения” - добавление всех файлов в отслеживание (флаг -a) и создание сохранения</li>
+                <li>git push - отправка данных, которая не сработает, поскольку ветки dev  в облачном репозитории не существует</li>
+                <li>git push --set-upstream origin dev - отправка данных в облачный репозиторий с созданием в нем ветки dev</li>
+                <li>git checkout -b lesson01 - создание подветки lesson01, исходник для которой - dev</li>
+            </ul>
+        <h2>Тут нужно внести какие то данные в ваш проект (любые), что бы появились изменения, которые git увидит</h2>
+            <ul>
+                <li>git commit -a -m “описание сохранения” - добавление всех файлов в отслеживание (флаг -a) и создание сохранения</li>
+                <li>git push - отправка данных, которая не сработает, поскольку ветки dev  в облачном репозитории не существует</li>
+                <li>git push --set-upstream origin lesson01 - отправка данных в облачный репозиторий с созданием в нем ветки dev</li>
+                <li>Скопировать ссылку на ветку lesson01 с GitHub и выслать её куратору.</li>
+            </ul>
+</body>
+</html>
